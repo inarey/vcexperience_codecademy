@@ -108,9 +108,8 @@ a:hover {
   content: '';
   position: absolute;
   background-image: url('./images/heroimg.jpg');
-  opacity: 60%;
   background-size: cover;
-  repeat: no-repeat;
+  background-repeat: no-repeat;
   top: 0px;
   right: 0px;
   left: 0px;
