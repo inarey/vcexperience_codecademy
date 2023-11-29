@@ -16,19 +16,36 @@ body {
 }
 
 h1,
-h2,
-h3 {
+h2 {
   margin: 0;
   font-family: 'Merriweather', serif;
   color: #f9fcfa;
 }
 
+h3,
 h4,
 h5,
 p {
   font-family: 'Merriweather Sans', sans-serif;
   padding: 16px 0 8px 0;
   color: #f9fcfa;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.875rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 ul {
@@ -38,6 +55,7 @@ ul {
 a {
   text-decoration: none;
   color: #f9fcfa;
+  font-size: 1.125rem;
 }
 
 .focus {
@@ -69,12 +87,6 @@ a:hover {
   display: flex;
   align-items: center;
   gap: 2rem;
-}
-
-.navlinks p {
-  font-family: 'Merriweather Sans', sans-serif;
-  font-size: 1.125rem;
-  font-weight: 400;
 }
 
 .divider {
@@ -134,7 +146,6 @@ a:hover {
   display: inline-block;
   border: none;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-  font-size: 1.125rem;
   text-decoration: none;
   color: #101010;
 }
@@ -230,8 +241,6 @@ a:hover {
 .members p {
   width: 60%;
   padding-top: 0;
-  font-size: 1rem;
-  font-weight: 400;
 }
 
 .members img {
