@@ -75,10 +75,10 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
+  padding: 5px 40px;
 }
 
-.logo h3 {
+.logo h4 {
   text-align: left;
   color: #36b15f;
 }
@@ -137,6 +137,10 @@ a:hover {
   margin-top: 80px;
   text-align: center;
   background-color: #e4d00a;
+}
+
+.cta-wrapper:hover {
+  background-color: #a29407;
 }
 
 .cta-btn {
@@ -238,7 +242,7 @@ a:hover {
 }
 
 .members p {
-  width: 60%;
+  width: 75%;
   padding-top: 0;
 }
 
